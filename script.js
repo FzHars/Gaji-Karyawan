@@ -30,6 +30,6 @@ function cek() {
     document.getElementById("hasilGaji").innerHTML =
       "Nama Karyawan: " + namaKaryawan + "<br>Gaji Bersih: " + gajiBersih;
   }
-  function refresh(){
-    document.getElementById("ttl").reset();
-  }
+  // function refresh(){
+  //   document.getElementById("ttl").reset();
+  // }
