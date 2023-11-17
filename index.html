@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Kalkulator Gaji Karyawan</title>
+      <link rel="stylesheet" href="style.css" />
+      <link
+        rel="icon"
+        href="inkayacu.ico"
+        type="image/x-icon"
+        style="border-radius: 50px"
+      />
+    </head>
+    <body>
+      <h1>Aplikasi Hitung Gaji</h1>
+      <table id="ttl">
+        <tr>
+          <td><label for="namaKaryawan">Nama Karyawan</label></td>
+          <td><input type="text" id="namaKaryawan" /></td>
+        </tr>
+        <tr>
+          <td><label for="gajiPokok">Gaji Pokok Bulanan</label></td>
+          <td><input type="number" id="gajiPokok" /></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input
+              type="button"
+              id="btn"
+              onclick="hitungGaji()"
+              value="Hitung Gaji"
+            />
+          </td>
+          <td>
+            <input type="button" id="btn" onclick="refresh()" value="Reset" />
+          </td>
+        </tr>
+      </table>
+
+      <p id="hasilGaji"></p>
+
+      <script src="script.js"></script>
+    </body>
+  </html>
+</html>

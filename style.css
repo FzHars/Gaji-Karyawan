@@ -1,0 +1,45 @@
+body {
+    background-image: url('hay.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form{
+    width: 600px;
+}
+
+h1,#hasilGaji{
+    font-size: 30px;
+    text-align: center ;
+    margin-bottom: 40px;
+}
+
+table {
+    border: 2px solid #575757;
+    padding: 20px;
+    margin: auto;
+}
+
+input[type="number"]{
+    width: 65%;
+}
+
+#gajipokok {
+    margin: 10px 0;
+}
+select {
+    width:69%;
+}
+
+#btn {
+    align-items: end;
+    float: right;
+    padding: 5px 10px;
+    margin-top: 15px;
+}
